@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <Button
+        android:id="@+id/btn_camera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn camera" />
+
+    <Button
+        android:id="@+id/btn_main_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn to main activity" />
+
+    <Button
+        android:id="@+id/btn_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn to launch services" />
+
+    <Button
+        android:id="@+id/btn_intent_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="btn to other activity with data" />
+
+    <EditText
+        android:id="@+id/tv_username"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="input username" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="login" />
+
+    <Button
+        android:id="@+id/btn_bulk_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send bulk data" />
+
+    <Button
+        android:id="@+id/btn_serializable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send data serial" />
+
+    <Button
+        android:id="@+id/btn_parcel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="send data parcel" />
+
+    <Button
+        android:id="@+id/btn_toast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show toast" />
+
+    <Button
+        android:id="@+id/btn_snackbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="show snackbar" />
+
+</LinearLayout>

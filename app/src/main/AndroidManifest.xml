@@ -22,17 +22,24 @@
 
         </activity>
 
-        <activity android:name=".SecondActivity"/>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".ThirdActivity" />
+        <activity android:name=".FiveActivity" />
 
-        <activity android:name=".ThirdActivity"
-            android:label="Binarku 2"
-            android:exported="true">
+        <activity
+            android:name=".FourthActivity"
+            android:exported="true"
+            android:label="Binarku 2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service
+            android:name=".SimpleServices"
+            android:exported="false" />
 
     </application>
 
