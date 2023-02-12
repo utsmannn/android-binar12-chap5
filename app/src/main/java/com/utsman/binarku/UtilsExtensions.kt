@@ -23,4 +23,28 @@ object UtilsExtensions {
             .load(url)
             .into(imageView)
     }
+
+    init {
+        val animalBuilder = Animal.Builder()
+        animalBuilder.setAnimalName("kucing")
+
+        val animal = animalBuilder.create()
+    }
+}
+
+
+// contoh builder pattern yang mirip seperti AlertDialog dan AlertDialog.Builder
+class Animal(private val name: String) {
+    class Builder {
+        private var name: String = ""
+
+        fun setAnimalName(name: String): Builder {
+            this.name = name
+            return this
+        }
+
+        fun create(): Animal {
+            return Animal(name)
+        }
+    }
 }
